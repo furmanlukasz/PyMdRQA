@@ -75,6 +75,7 @@ def mdrqa(data, emb=1, delay=1, norm='non', radius=1):
         'LAM': result.laminarity,
         'MVL': result.longest_vertical_line,
         'VENTR': result.entropy_vertical_lines,
+        'TT': result.trapping_time,
         'DIM': dims,
         'EMB': emb,
         'DEL': delay,
